@@ -1,0 +1,47 @@
+.rotate-hor-center {
+	-webkit-animation: rotate-hor-center 1.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+	        animation: rotate-hor-center 1.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+    margin: 10px;
+    color: azure;
+}
+#btn45{
+    padding: 20px;
+    margin: 10px;
+    color: aliceblue;
+    background-color: purple;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@-webkit-keyframes rotate-hor-center {
+    0% {
+      -webkit-transform: rotateX(0);
+              transform: rotateX(0);
+    }
+    100% {
+      -webkit-transform: rotateX(-360deg);
+              transform: rotateX(-360deg);
+    }
+  }
+  @keyframes rotate-hor-center {
+    0% {
+      -webkit-transform: rotateX(0);
+              transform: rotateX(0);
+    }
+    100% {
+      -webkit-transform: rotateX(-360deg);
+              transform: rotateX(-360deg);
+    }
+  }
+  
+  
